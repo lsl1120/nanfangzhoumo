@@ -1,0 +1,35 @@
+@function rem($px){
+    @return $px/37.5*1rem;
+}
+
+.contentpage{
+    width: 100%;
+    padding: 4%;
+    padding-bottom: 14%;
+    box-sizing: border-box;
+    background-color: white;
+    .title{
+        width: 100%;
+        font-size: rem(22);
+        margin-bottom: rem(10);
+    }
+    .baoshe{
+        font-size: rem(14);
+        color: #999;
+        margin-bottom: rem(10);
+    }
+    .neirong{
+        font-size: rem(18);
+        p{
+            margin: rem(15) 0;
+        }
+        .cm_pic_caption{
+            font-size: rem(13);
+            padding: 0 0 0 0!important;
+        }
+        img{
+            width: 100%;
+            height: 50%;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@function rem($px){
+    @return $px/37.5*1rem;
+}
+
+.login{
+    padding: 0 rem(15);
+    p{
+        position: relative;
+        height: rem(35);
+        .fa-times{
+            position: absolute;
+            right: rem(10);
+            top:rem(10);
+            font-size: rem(20);
+        }
+    }
+    
+    h1{
+        text-align: center;
+        font-size: rem(20);
+        margin-bottom: rem(30);
+    }
+    
+    .input-group{
+        margin-bottom: 0 !important;
+
+        input{
+            font-size: rem(15);
+            height: rem(30);
+        }
+    }
+    
+    .form-group{
+        margin-bottom: 0 !important;
+        margin-top: rem(30);
+        .form-control{
+            font-size: rem(15);
+            height: rem(30);
+        }
+    }
+    
+    .btn-success{
+        height: rem(30);
+        width: 100%;
+        font-size: rem(15);
+        padding: 0;
+        background-color: red;
+    }
+    
+    .btn-info{
+        height: rem(30);
+        width: 100%;
+        font-size: rem(15);
+        padding: 0;
+        background-color: red;
+    }
+    
+}

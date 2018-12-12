@@ -1,0 +1,25 @@
+@function rem($px){
+    @return $px/37.5*1rem;
+}
+
+.xw{
+    padding: rem(100) 4% rem(50) 4%;
+    .xinwenOne{
+        .TJcontent3{
+            .Importance{
+                font-size: rem(16);
+                p{
+                    margin: rem(10) 0;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .tuijianTime{
+                margin: rem(10) 0;
+                font-size: rem(13);
+                color: #bbb;
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+@function rem($px){
+    @return $px/37.5*1rem;
+}
+
+.register{
+    padding: 0 rem(15);
+    p{
+        position: relative;
+        height: rem(35);
+        .fa-times{
+            position: absolute;
+            right: rem(10);
+            top:rem(10);
+            font-size: rem(20);
+        }
+    }
+    
+    h1{
+        text-align: center;
+        font-size: rem(20);
+        margin-bottom: rem(30);
+    }
+    
+    #reginput{
+        display: block;
+        font-size: rem(15);
+    }
+    
+    #regpass{
+        display: block;
+        font-size: rem(15);
+    }
+    
+    #QRregpass{
+        display: block;
+        font-size: rem(15);
+    }
+    
+    #codeval{
+        display: block;
+        font-size: rem(15);
+    }
+    
+    .input-group{
+        margin-bottom: rem(10) !important;
+
+        input{
+            font-size: rem(15);
+            height: rem(30);
+        }
+      
+    }
+    
+    .form-group{
+        margin-bottom: rem(10) !important;
+//      margin-top: rem(30);
+        .form-control{
+            font-size: rem(15);
+            height: rem(30);
+        }
+    }
+    
+    #codeinput{
+        height: rem(30) !important;
+    }
+    
+    .btn-success{
+        height: rem(30);
+        width: 100%;
+        font-size: rem(15);
+        padding: 0;
+        background-color: red;
+    }
+    
+    .btn-info{
+        height: rem(30);
+        width: 100%;
+        font-size: rem(15);
+        padding: 0;
+        background-color: red;
+    }
+    
+    #input{
+        font-size: rem(15);
+        display: inline-block;
+        border: 1px solid #ccc;
+        width: 70%;
+        height: rem(30);
+        padding: 0.375rem 0.75rem;
+    }
+    #code{
+        background-image: url(../../img/yzmBackground.jpg);
+        background-size: rem(120);
+        background-repeat: no-repeat;
+        font-size: rem(20);
+        color: white;
+        height: rem(30);
+        width: 30%;
+        letter-spacing: rem(6);
+    }
+}

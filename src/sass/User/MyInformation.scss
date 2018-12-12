@@ -1,0 +1,51 @@
+@function rem($px){
+    @return $px/37.5*1rem;
+}
+
+.myinf{
+    background: white;
+    height: 100%;
+    position: relative;
+    margin-bottom: rem(50);
+    .myImg{
+        img{
+            width: 100%;
+            height: rem(200);
+            opacity: 0.7;
+        }
+    }
+    .headImg{
+        img{
+            border-radius: 50%;
+            height: rem(100);
+            position: absolute;
+            top: 5%;
+            left: 36%;
+        }
+        p{
+            position: absolute;
+            top: 23%;
+            left: 37%;
+            font-size: rem(20);
+        }
+    }
+    
+    .mylist{
+       
+//      background: yellow;
+//      margin-top: rem(200);
+        padding: 0 rem(20);
+        ul{
+           
+            li{
+                display: flex;
+                justify-content: space-between;
+                font-size: rem(17);
+                border-bottom: 1px solid #ccc;
+                padding: rem(10) 0;
+                
+            }
+        }
+    }
+
+}
